@@ -1,46 +1,87 @@
 <p align="center">
-    <a href="https://gibbonedu.org/" target="_blank"><img width="200" src="https://gibbonedu.org/img/gibbon-logo.png"></a><br>
-    Gibbon is a flexible, open source school management platform designed <br>
-    to make life better for teachers, students, parents and schools.
+    <img width="200" src="uploads/2025/12/logo_dR8gaBtCWZMN6PQh.png" alt="Tarkiz Virtual School Logo"><br>
+    <h1 align="center">Tarkiz Virtual School | مدرسة تركيز الافتراضية</h1>
+    <p align="center">منصة تعلم افتراضي متكاملة - An Integrated Virtual Learning Platform</p>
 </p>
 
 ------
 
-Gibbon Core
-===========
-The Core repository represents the bulk of Gibbon, including all of its primary functionality. The core can be extended through the use of modules and themes, which are provided separately. See the [Extend](https://gibbonedu.org/extend/) page for more info.
+## عن المنصة | About The Platform
 
-Gibbon is open source, and maintained for the benefit of teachers, students, parents and schools.
+**Tarkiz Virtual School (مدرسة تركيز الافتراضية)** هي منصة تعليم افتراضي متكاملة تم تطويرها بالاعتماد على نظام **Gibbon** (نظام إدارة مدرسي مفتوح المصدر). تهدف المنصة إلى تقديم تعليم عن بُعد للطلاب السوريين في الخارج وفق المناهج السورية المعتمدة من وزارة التربية السورية.
 
-## Documentation
+## رسالة الماجستير | Master's Thesis
 
-For full documentation, visit [docs.gibbonedu.org](https://docs.gibbonedu.org).
+هذا المشروع أُعد لتقديمه كجزء من متطلبات رسالة الماجستير في:
 
-## Installation & Support
+**"تصميم وتنفيذ منصة تعلم افتراضي متكاملة لمدرسة تركيز الافتراضية وفق متطلبات وزارة التربية السورية – دراسة حالة في تطوير بيئة تعليمية رقمية سورية"**
 
-For installation instructions, visit [Getting Started: Installing Gibbon](https://docs.gibbonedu.org/introduction/installing-gibbon)
+**"Design and Implementation of an Integrated Virtual Learning Platform for Tarkiz Virtual School According to the Requirements of the Syrian Ministry of Education – A Case Study in Developing a Syrian Digital Educational Environment"**
 
-For support visit [ask.gibbonedu.org](https://ask.gibbonedu.org) or see [our documentation](https://docs.gibbonedu.org).
+## رؤية المدرسة | Vision
 
-## Cutting Edge
-If you want to run the latest version of Gibbon, prerelease, you can get the source from our [GitHub repository](https://github.com/GibbonEdu/core). Remember, though, it is not stable, and you may lose data. This is not for the faint of heart.
+نسعى لتحقيق الريادة في التعليم عن بُعد ومساعدة طلابنا على بناء مستقبل متميز ضمن بيئة محفزة تدعمهم لاكتشاف إمكاناتهم الحقيقية، وتعمق الفهم، وتعزز الابتكار لديهم من خلال مناهج دراسية معتمدة وخدمات تعليمية فريدة تقدم عبر برمجيات متطورة تدعم التعليم الافتراضي.
 
-For installation instructions, be sure to follow the instructions for [Cutting Edge Code](https://docs.gibbonedu.org/introduction/installation-options/cutting-edge-code).
+## الرسالة | Mission
 
-## Translation
+رسالتنا تعليمية، وطنية، إنسانية:
+- **إنسانية**: نشر المناهج التعليمية والإثرائية لطلابنا في كل أنحاء العالم بأقساط مناسبة تراعي الظروف المعيشية
+- **تعليمية**: نشر المناهج السورية للطلاب خارج حدود الوطن عبر برمجيات التعليم عن بُعد المتطورة
+- **وطنية**: تعزيز المواطنة لدى طلابنا السوريين في المغترب من خلال تعليم المناهج السورية
 
-Thanks to our amazing volunteers, Gibbon is available in many different languages. We use the online tool [POEditor](https://poeditor.com), which enables our volunteer translators to collaborate and track their translation progress. Huge thanks to POEditor for their support of open source projects and making this tool available for our community. If you would like to help translate Gibbon, please email support@gibbonedu.org and [learn more here](https://gibbonedu.org/about/#languages). Your help would be most appreciated!
+## الأهداف | Objectives
 
-## Contributing
+1. تقديم تعليم افتراضي مبتكر يلبي احتياجات الطلاب ومتطلبات أولياء الأمور
+2. تعزيز مهارات التفكير الناقد والإبداعي والبرمجي لدى الطلاب
+3. دعم الطلاب لتحقيق التميز في الجوانب التعليمية والتكميلية
+4. تلبية تطلعات الطلاب وأولياء الأمور وتعزيز مبادئ الشفافية والموثوقية
 
-We welcome community contribution and aim to ensure Gibbon is an open and friendly environment. Information about contributing, submitting issues, and pull requests can be found in the following docs:
+## التراخيص والاعتمادات | Licenses & Accreditations
 
-- [**Contributor Guide**](https://github.com/GibbonEdu/core/blob/master/.github/CONTRIBUTING.md) - Learn more about how you can contribute to Gibbon, from code to non-code contributions alike.
+- مرخصة رسمياً من وزارة التربية السورية بموجب القرار الوزاري رقم 2/2288 (43)/5/4 تاريخ 2/3/2023
+- حاصلة على شهادة المطابقة لنظام إدارة الجودة وفق المواصفة الدولية ISO9001:2015
 
-- [**Code of Conduct**](https://github.com/GibbonEdu/core/blob/master/.github/CODE_OF_CONDUCT.md) - Our pledge to foster a welcoming community and a positive environment for anyone to participate in.
+## فريق التطوير | Development Team
 
-- [**Developer Workflow**](https://docs.gibbonedu.org/development/getting-started/developer-workflow) - If you want to get involved in the development process, check out our workflow and [GitHub repository](https://github.com/GibbonEdu/core). Generally there will be a development branch with the latest code, as per our [Development Road Map](https://docs.gibbonedu.org/development/gibbon-road-map).
+تم إنشاء وتطوير المنصة بواسطة فريق AY للبرمجيات:
+- **م. بشار ياسر المحمد الخلف** (Eng. Bashar Yasser Al-Mohammed Al-Khalaf)
+- **م. دحام ياسر المحمد الخلف** (Eng. Daham Yasser Al-Mohammed Al-Khalaf)
+
+## المتطلبات التقنية | System Requirements
+
+| المتطلب | الإصدار |
+|---------|---------|
+| PHP | 7.4.0+ |
+| MySQL | 5.7+ |
+| Apache | (mod_rewrite) |
+| الإضافات المطلوبة | gettext, mbstring, curl, zip, xml, gd, intl |
+
+## التثبيت المحلي | Local Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/dahaamfirst/tarkiz_mcs.git
+
+# 2. Install composer dependencies
+composer install
+
+# 3. Create database and import your SQL dump
+mysql -u root -e "CREATE DATABASE tarkiz_mcs CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
+mysql -u root tarkiz_mcs < your_database.sql
+
+# 4. Copy and configure config.php
+cp config.example.php config.php
+# Edit config.php with your database credentials
+
+# 5. Set up uploads directory permissions
+chmod -R 755 uploads/cache
+```
+
+## Gibbon Core
+
+This platform is built on **Gibbon** - a flexible, open source school management platform designed to make life better for teachers, students, parents and schools. Gibbon is licensed under GNU General Public License v3.0.
 
 ## License
 
-Gibbon is licensed under GNU General Public License v3.0. You can obtain a copy of the license [here](https://github.com/GibbonEdu/core/blob/master/LICENSE).
+Gibbon is licensed under GNU General Public License v3.0.
+Tarkiz Virtual School platform modifications © 2023-2026 AY Software Development Team.
