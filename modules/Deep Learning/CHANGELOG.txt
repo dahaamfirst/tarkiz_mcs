@@ -1,0 +1,78 @@
+CHANGELOG
+=========
+v0.2.01
+-------
+Added a Export All button to the top of the Deep Learning Overview page
+Added a coverage indicator to the View DL Staffing report
+
+v0.2.00
+-------
+Gibbon v28 Compatibility
+
+v0.1.01
+-------
+Usability tweaks to Deep Learning feature set
+
+v0.1.00
+-------
+Transferred ownership from Ross Parker to Gibbon Foundation
+
+v0.0.13
+-------
+Added the ability to attach Messenger Groups directly to Experiences
+
+v0.0.12
+-------
+Update parent permission to include viewMyDL.php page
+
+v0.0.11
+-------
+Added a Print All button to the top of the Deep Learning Overview page
+Trip leaders can now be added and moved between experiences using the drag-drop staffing tool
+When adding experiences to an event, it will indicate which units have already been added
+The View Student Choices can let you cross check what a student's actual enrolment ended up being
+
+v0.0.10
+-------
+Added a Deep Learning page to the student profile
+
+v0.0.09
+-------
+Added a report for student attendance during DL Events
+
+v0.0.08
+-------
+Added the ability to assign venues to experiences
+
+v0.0.07
+-------
+Added a field in units to hold the parent letter, to auto-populate in trip plans
+Added the option to connect Trip Plans to Experiences and keep participants in sync
+
+v0.0.06
+-------
+Added the option for Trip Leaders to change the status of students and add notes through Deep Learning Overview
+Added a notification event when enrolment changes are made to DL groups
+
+v0.0.05
+-------
+Added a View Deep Learning page for parents to view their children's DL
+
+v0.0.04
+-------
+Add a View Student Choices report
+
+v0.0.03
+-------
+Improves mobile responsiveness of View Experience page
+Enabled staff to preview Deep Learning Events, updated display of sign up status
+
+v0.0.02
+-------
+Added itinerary details to Units, display to enrolled participants in View Experience
+Removed duplicate fields from Experiences, revert back to Units for these fields
+Removed the Add Experience page, use only Add Multiple
+
+v0.0.01
+-------
+Initial version, sets up database tables

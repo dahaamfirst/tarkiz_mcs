@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جلاء مدرسي</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .school-info, .student-info, .attendance-info, .remarks {
+            margin-top: 20px;
+        }
+        .school-info, .student-info {
+            font-size: 16px;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .table th, .table td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        .table th {
+            background-color: #f2f2f2;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .column {
+            width: 48%;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <p>الجمهورية العربية السورية</p>
+        <p>وزارة التربية</p>
+        <p>مدرسة أوغاريت الخاصة الافتراضية</p>
+    </div>
+
+    <div class="student-info">
+        <p><strong>اسم الطالب:</strong> {{ student.officialName }}</p>
+        <p><strong>الرقم:</strong> {{ student.studentID }}</p>
+        <p><strong>الصف:</strong> {{ student.yearGroupName }}</p>
+        <p><strong>السنة الدراسية:</strong> 2024 - 2025 </p>
+        <p><strong>تاريخ الميلاد:</strong> {{ student.dob }}</p>
+        <p><strong>اسم الأب:</strong> {{ parent1officialName }}</p>
+        <p><strong>اسم الأم:</strong> {{ parent2officialName }}</p>
+    </div>
+
+    <div class="attendance-info">
+        <h3>التقارير الفصلية</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>المادة</th>
+                    <th>التقييم الداخلي</th>
+                    <th>الدرجة النهائية</th>
+                    <th>الغياب</th>
+                </tr>
+            </thead>
+        <tbody>
+            {% for course in courses %}
+                <tr>
+                    <td>{{ course.subjectName }}</td>
+                    <td>{{ course.internal_assessment }}</td>
+                    <td>{{ course.finalGrade }}</td>
+                    <td>{{ course.absences }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+    </div>
+
+    <div class="remarks">
+        <p><strong>ملاحظات:</strong> {{ report.remarks }}</p>
+    </div>
+
+    <div class="footer">
+        <p>مدير المدرسة: ___________</p>
+        <p>توقيع المعلم: ___________</p>
+        <p>توقيع مدير المدرسة: ___________</p>
+    </div>
+</body>
+</html>

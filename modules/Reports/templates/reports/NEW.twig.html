@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جلاء مدرسي</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .school-info, .student-info {
+            margin-top: 20px;
+        }
+        .school-info {
+            font-size: 16px;
+        }
+        .student-info {
+            font-size: 18px;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .table th, .table td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        .table th {
+            background-color: #f2f2f2;
+        }
+        .remarks {
+            margin-top: 30px;
+            font-size: 16px;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <p>الجمهورية العربية السورية</p>
+        <p>وزارة التربية</p>
+        <p>مدرسة {{ school_name }}</p>
+        <p>المرحلة الثانوية للعلمي</p>
+    </div>
+
+    <div class="school-info">
+        <p><strong>الاسم:</strong> {{ student_name }}</p>
+        <p><strong>الصف:</strong> {{ grade }}</p>
+        <p><strong>السنة الدراسية:</strong> {{ school_year }}</p>
+    </div>
+
+    <div class="student-info">
+        <p><strong>رقم الجلوس:</strong> {{ student_id }}</p>
+        <p><strong>تاريخ الميلاد:</strong> {{ birth_date }}</p>
+    </div>
+
+    <div class="attendance">
+        <h3>التقارير الفصلية</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>المادة</th>
+                    <th>التقييم الداخلي</th>
+                    <th>الدرجة النهائية</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for subject in subjects %}
+                    <tr>
+                        <td>{{ subject.name }}</td>
+                        <td>{{ subject.internal_assessment }}</td>
+                        <td>{{ subject.final_grade }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="remarks">
+        <p><strong>ملاحظات:</strong> {{ remarks }}</p>
+    </div>
+
+    <div class="footer">
+        <p>توقيع المعلم: ___________</p>
+        <p>توقيع مدير المدرسة: ___________</p>
+    </div>
+</body>
+</html>
